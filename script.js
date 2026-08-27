@@ -182,6 +182,139 @@ const BANK = [
   {c:"politique", q:"La retraite à 64 ans ou plus tard encore : comment ça change vos projets à deux ?"},
   {c:"politique", q:"Faut-il davantage taxer les hauts revenus pour financer les services publics : vous êtes d'accord ?"},
   {c:"politique", q:"Le service civique ou militaire obligatoire pour les jeunes : pour ou contre, chacun ?"},
+  {c:"politique", q:"Afficher ses opinions politiques publiquement sur les réseaux : vous le faites, ou vous évitez ?"},
+  {c:"politique", q:"L'immigration et les politiques migratoires : un sujet que vous arrivez à débattre calmement en couple ?"},
+  {c:"politique", q:"La liberté d'expression a-t-elle des limites, et lesquelles selon vous deux ?"},
+  {c:"politique", q:"Voter blanc ou s'abstenir par conviction : vous comprenez cette démarche, ou pas du tout ?"},
+  {c:"politique", q:"Le rôle de l'État dans l'économie : plus d'intervention ou plus de liberté de marché, chacun votre avis ?"},
+  {c:"politique", q:"Débattre de politique avec sa famille pendant les repas : vous évitez, ou vous vous lancez volontiers ?"},
+
+  // Argent & finances (suite)
+  {c:"argent", q:"Faut-il se fixer une limite au-delà de laquelle on prévient l'autre avant un achat ?"},
+  {c:"argent", q:"Un abonnement inutile que vous payez encore à deux : qui devrait s'en occuper, et pourquoi personne ne le fait ?"},
+  {c:"argent", q:"Faire des cadeaux chers à sa propre famille sur le budget commun : ça se discute, ou c'est automatique ?"},
+  {c:"argent", q:"Négocier son salaire : est-ce que l'un de vous pousse plus l'autre à le faire ?"},
+  {c:"argent", q:"Miser sur les cryptomonnaies avec l'épargne du couple : un risque que vous prendriez ensemble ?"},
+
+  // Travail & carrière (suite)
+  {c:"travail", q:"Répondre aux mails professionnels le week-end : une habitude qui empiète sur votre couple ?"},
+  {c:"travail", q:"Un job bien payé mais sans passion, ou un métier passion moins rémunérateur : lequel choisiriez-vous à deux ?"},
+  {c:"travail", q:"Créer sa propre entreprise ensemble : une bonne idée, ou le meilleur moyen de tout compliquer ?"},
+  {c:"travail", q:"Accepter un poste à l'étranger pour un an : l'autre devrait-il forcément suivre ?"},
+  {c:"travail", q:"Le syndrome de l'imposteur au travail : vous en parlez facilement à l'autre, ou vous le cachez ?"},
+
+  // Maison & quotidien (suite)
+  {c:"maison", q:"Qui décide de la température du chauffage ou de la clim chez vous, et est-ce un vrai sujet de tension ?"},
+  {c:"maison", q:"Recevoir la famille de l'autre à l'improviste sans prévenir : ça passe chez vous ?"},
+  {c:"maison", q:"Refaire des travaux soi-même ou payer un pro : qui tranche, dans votre couple ?"},
+  {c:"maison", q:"Y a-t-il un coin de la maison que l'un considère comme « le sien », sans vraiment le partager ?"},
+  {c:"maison", q:"Emménager chez l'un plutôt que de trouver un logement neutre : est-ce que ça a créé un déséquilibre ?"},
+
+  // Enfants & éducation (suite)
+  {c:"enfants", q:"Inscrire les enfants à énormément d'activités extrascolaires : une chance qu'on leur offre, ou une pression ?"},
+  {c:"enfants", q:"Laisser un enfant choisir son style ou son prénom d'usage : jusqu'où le laisser décider seul ?"},
+  {c:"enfants", q:"Comparer votre enfant à celui des autres devant lui : totalement interdit, ou ça arrive parfois chez vous ?"},
+  {c:"enfants", q:"Un enfant qui préfère clairement un parent à l'autre : comment vous le viviez, tous les deux ?"},
+  {c:"enfants", q:"Confier souvent les enfants aux grands-parents : un vrai coup de main, ou une délégation trop facile ?"},
+
+  // Écologie (suite)
+  {c:"ecologie", q:"Composter, récupérer l'eau de pluie, jardiner bio : jusqu'où êtes-vous prêts à aller ensemble ?"},
+  {c:"ecologie", q:"Un(e) proche qui vous fait la morale écolo en permanence : ça vous parle, ou ça vous agace ?"},
+  {c:"ecologie", q:"Réduire drastiquement vos déplacements en avion : un engagement que vous prendriez à deux ?"},
+  {c:"ecologie", q:"Le prix plus élevé du bio et du local : un budget que vous priorisez vraiment, ou seulement en théorie ?"},
+
+  // Numérique & réseaux (suite)
+  {c:"numerique", q:"Partager le code de son téléphone avec l'autre : évident, ou une question de confiance mal posée ?"},
+  {c:"numerique", q:"Passer du temps sur des jeux vidéo en solo le soir : ça vous convient à tous les deux ?"},
+  {c:"numerique", q:"Utiliser une appli de localisation pour se rassurer mutuellement : rassurant, ou franchement flippant ?"},
+  {c:"numerique", q:"Débattre en ligne avec des inconnus sur des sujets sensibles : ça vous arrive, et l'autre en pense quoi ?"},
+
+  // Technologie & IA (suite)
+  {c:"technologie", q:"Une IA qui donnerait son avis sur vos disputes de couple : vous testeriez, ou jamais de la vie ?"},
+  {c:"technologie", q:"Se faire remplacer au travail par une IA d'ici dix ans : une peur que vous partagez tous les deux ?"},
+  {c:"technologie", q:"Des lunettes connectées qui affichent des infos en permanence : vous porteriez ça au quotidien ?"},
+  {c:"technologie", q:"Laisser une IA planifier vos vacances de A à Z : vous lui feriez confiance ?"},
+
+  // Couple & habitudes (suite)
+  {c:"couple", q:"Se dire « je t'aime » tous les jours : un rituel nécessaire, ou ça perd son sens à force ?"},
+  {c:"couple", q:"Avoir des amis uniquement communs, ou garder chacun ses cercles séparés : que préférez-vous vraiment ?"},
+  {c:"couple", q:"Le premier à dire « pardon » après une dispute : c'est toujours le même chez vous ?"},
+  {c:"couple", q:"Vous retrouver seuls sans les enfants régulièrement : vous le faites assez souvent, selon vous ?"},
+  {c:"couple", q:"Un couple doit-il tout partager sur les réseaux, ou garder une part de vie privée à deux ?"},
+  {c:"couple", q:"Rejouer votre premier rendez-vous chaque année : une tradition que vous aimeriez instaurer ?"},
+
+  // Intimité & complicité (suite)
+  {c:"intimite", q:"Se faire des compliments devant les autres ou seulement en privé : lequel préférez-vous vraiment ?"},
+  {c:"intimite", q:"Instaurer un rituel du soir juste tous les deux, sans écran : réaliste dans votre quotidien ?"},
+  {c:"intimite", q:"Se souvenir des petites choses que l'autre aime : qui est le plus attentif dans le couple, selon vous ?"},
+
+  // Vacances & loisirs (suite)
+  {c:"vacances", q:"Un voyage improvisé sans réservation à l'avance : vous tenteriez l'expérience à deux ?"},
+  {c:"vacances", q:"Faire du camping sauvage ou préférer le tout confort : vous êtes sur la même longueur d'onde ?"},
+  {c:"vacances", q:"Consacrer ses vacances à visiter la famille plutôt qu'à se reposer : un choix qui vous convient ?"},
+  {c:"vacances", q:"Un hobby coûteux que l'un pratique seul (moto, plongée…) : l'autre doit-il l'accepter sans discuter ?"},
+
+  // Culture & sorties (suite)
+  {c:"culture", q:"Aller au concert d'un artiste que seul l'un de vous aime : par amour, ou par corvée ?"},
+  {c:"culture", q:"Regarder une série ensemble sans jamais avancer sans l'autre : une règle que vous respectez vraiment ?"},
+  {c:"culture", q:"Découvrir un musée ou une expo sur un coup de tête un dimanche : ça vous arrive souvent ?"},
+  {c:"culture", q:"Avoir un livre ou un film culte que l'autre déteste : ça vous a déjà causé un vrai débat ?"},
+
+  // Sport (suite)
+  {c:"sport", q:"Regarder le sport à la télé plusieurs heures le week-end : ça crée de la frustration chez l'autre ?"},
+  {c:"sport", q:"Faire du sport ensemble tôt le matin : romantique, ou source de disputes garanties ?"},
+  {c:"sport", q:"Supporter des équipes rivales dans le même couple : un vrai problème, ou juste un jeu ?"},
+  {c:"sport", q:"Se muscler pour soi ou pour plaire à l'autre : où est la frontière, selon vous ?"},
+  {c:"sport", q:"L'un de vous arrête totalement le sport après une blessure : l'autre doit-il s'adapter ?"},
+  {c:"sport", q:"Partir un week-end entier pour un match ou une course : vous accepteriez que l'autre y aille seul(e) ?"},
+
+  // Alimentation (suite)
+  {c:"alimentation", q:"Manger devant la télé plutôt qu'à table : une habitude qui vous convient à tous les deux ?"},
+  {c:"alimentation", q:"Faire un régime strict pour perdre du poids : l'autre doit-il suivre par solidarité ?"},
+  {c:"alimentation", q:"Le grignotage du soir : un plaisir partagé, ou une source de tension silencieuse ?"},
+  {c:"alimentation", q:"Qui décide du menu de la semaine chez vous, et est-ce vraiment équitable ?"},
+
+  // Animaux de compagnie (suite)
+  {c:"animaux", q:"Choisir la race ou l'espèce d'un futur animal : une décision à deux, ou un coup de cœur qui l'emporte ?"},
+  {c:"animaux", q:"Un animal qui coûte cher en vétérinaire chaque mois : jusqu'où vous suivez sans discuter ?"},
+  {c:"animaux", q:"Voyager moins pour ne pas laisser l'animal seul : un vrai sacrifice de couple, ou ça ne vous dérange pas ?"},
+
+  // Santé & bien-être (suite)
+  {c:"sante", q:"Faire une psychothérapie chacun de son côté : un sujet que vous partagez avec l'autre, ou pas du tout ?"},
+  {c:"sante", q:"Le stress de l'un qui déteint sur l'ambiance à la maison : vous en parlez ouvertement ?"},
+  {c:"sante", q:"Prendre soin de sa santé mentale autant que de sa santé physique : un équilibre respecté chez vous deux ?"},
+  {c:"sante", q:"Se forcer à aller mieux pour rassurer l'autre : ça vous est déjà arrivé ?"},
+
+  // Croyances & spiritualité (suite)
+  {c:"spiritualite", q:"La méditation ou le yoga comme pratique spirituelle laïque : ça vous parle à tous les deux ?"},
+  {c:"spiritualite", q:"Élever les enfants sans aucune religion par choix : une évidence, ou un sujet encore ouvert chez vous ?"},
+  {c:"spiritualite", q:"Croire à une forme de destin ou de signes dans la vie : vous êtes alignés là-dessus ?"},
+
+  // Apparence & image de soi (suite)
+  {c:"apparence", q:"Se sentir jugé par le regard de l'autre sur son physique : ça vous arrive, même sans mauvaise intention ?"},
+  {c:"apparence", q:"Prendre soin de son apparence pour soi, ou aussi pour plaire à l'autre : où en êtes-vous ?"},
+  {c:"apparence", q:"Vieillir ensemble et accepter les changements physiques de l'autre : ça vous fait peur, ou pas du tout ?"},
+
+  // Vie sociale & voisinage (suite)
+  {c:"voisinage", q:"Avoir des amis que l'autre n'aime pas trop : vous les voyez quand même, séparément ?"},
+  {c:"voisinage", q:"Organiser une fête chez vous sans demander l'avis de l'autre avant : ça arrive, et comment ça se passe ?"},
+  {c:"voisinage", q:"S'impliquer dans la vie du quartier (association, copropriété) : l'un de vous s'y colle plus que l'autre ?"},
+
+  // Belle-famille (suite)
+  {c:"famille", q:"Passer plus de vacances chez une belle-famille que chez l'autre : un déséquilibre que vous voyez chez vous ?"},
+  {c:"famille", q:"Défendre son/sa conjoint(e) devant sa propre famille en cas de critique : ça vous est déjà arrivé de ne pas le faire ?"},
+  {c:"famille", q:"Adopter les traditions familiales de l'autre comme les vôtres : facile, ou un vrai effort d'adaptation ?"},
+
+  // Projets d'avenir (suite)
+  {c:"avenir", q:"Se marier ou rester en couple sans papiers : un sujet tranché chez vous, ou encore en discussion ?"},
+  {c:"avenir", q:"Changer complètement de vie (van, île, campagne) d'ici cinq ans : un rêve que vous partagez vraiment ?"},
+  {c:"avenir", q:"Se projeter avec ou sans enfants : est-ce que vous avez vraiment la même vision, tous les deux ?"},
+
+  // Société & actu (suite)
+  {c:"societe", q:"L'intelligence artificielle qui remplace des métiers entiers : une inquiétude que vous partagez ?"},
+  {c:"societe", q:"Le télétravail généralisé : une bonne chose pour la société, selon vous deux ?"},
+  {c:"societe", q:"La désinformation sur les réseaux sociaux : est-ce que ça vous divise, vous et votre entourage ?"},
+  {c:"societe", q:"Réduire son empreinte numérique (mails, vidéos, cloud) : un geste concret que vous feriez ensemble ?"},
 ];
 
 /* ---------- 2. Générateurs de questions à partir d'un titre d'actu ---------- */
